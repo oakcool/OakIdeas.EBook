@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OakIdeas.EBook.EPUB.Elements.SpineElement">
+    <Position X="18" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAADAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Elements\SpineElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Elements.PackageElement">
+    <Position X="13.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAADAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Elements\PackageElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Elements.MetadataElement">
+    <Position X="8.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAADAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Elements\MetadataElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Elements.ManifestElement">
+    <Position X="13.25" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAADAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Elements\ManifestElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Elements.GuideElement">
+    <Position X="21.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAADAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Elements\GuideElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.BaseElement">
+    <Position X="8.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAACAAAAAAAAAAAAEAAQSAAAAIAAAAAAgAAAAAAA=</HashCode>
+      <FileName>EPUB\BaseElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Elements.BindingsElement">
+    <Position X="25" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAADAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Elements\BindingsElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Elements.IdentifierElement">
+    <Position X="3.25" Y="10" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAAAAAADAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Elements\IdentifierElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Elements.TitleElement">
+    <Position X="6.25" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAADAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Elements\TitleElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Elements.LanguageElement">
+    <Position X="9" Y="10" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAADAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Elements\LanguageElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Elements.MetaElement">
+    <Position X="12.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAADAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Elements\MetaElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Elements.LinkElement">
+    <Position X="14.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAADAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Elements\LinkElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OakIdeas.EBook.EPUB.BaseElement">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAQSAAAAIAAAAAAgAAAAAAA=</HashCode>
+      <FileName>EPUB\BaseElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Property">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAAAAAAAAAAAAAQCAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EPUB\Property.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Attributes.TypeAttribute">
+    <Position X="11.75" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAAAAAABAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Attributes\TypeAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Attributes.PhAttribute">
+    <Position X="14.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAAAAAABAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Attributes\PhAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Attributes.AlphabetAttribute">
+    <Position X="17" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAAAAAABAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Attributes\AlphabetAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Elements.SwitchElement">
+    <Position X="4.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAADAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Elements\SwitchElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Attributes.IdAttribute">
+    <Position X="20.25" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAAAAAABAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Attributes\IdAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Elements.CaseElement">
+    <Position X="7" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgACAAAAAAAADAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Elements\CaseElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Attributes.RequiredNamespaceAttribute">
+    <Position X="23" Y="3.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAAAAAABAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Attributes\RequiredNamespaceAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Elements.DefaultElement">
+    <Position X="9.5" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAADAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Elements\DefaultElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Elements.TriggerElement">
+    <Position X="1.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAADAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Elements\TriggerElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Attributes.RefAttribute">
+    <Position X="27" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAAAAAABAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Attributes\RefAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Attributes.EventAttribute">
+    <Position X="20.25" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAAAAAABAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Attributes\EventAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Attributes.ObserverAttribute">
+    <Position X="17" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAAAAAABAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Attributes\ObserverAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Attributes.ActionAttibute">
+    <Position X="23" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAiAAAAAAAABAAAAAAQSAAAAIAAAQAAgAAAACAg=</HashCode>
+      <FileName>EPUB\Attributes\ActionAttibute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Attributes.VersionAttribute">
+    <Position X="30" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAAAAAABAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Attributes\VersionAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Attributes.UniqueIdentifierAttribute">
+    <Position X="33" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAAAAAABAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Attributes\UniqueIdentifierAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Attributes.DirectionAttribute">
+    <Position X="37" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAiAAAAAAAABAAAAAQQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Attributes\DirectionAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OakIdeas.EBook.EPUB.Attributes.LanguageAttribute">
+    <Position X="39.75" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAAAAAABAAAAAAQSAAAAIAAAQAAgAAAACAA=</HashCode>
+      <FileName>EPUB\Attributes\LanguageAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="OakIdeas.EBook.EPUB.Attributes.IAttribute">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>EPUB\Attributes\IAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

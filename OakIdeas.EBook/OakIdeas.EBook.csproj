@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{89AA60AB-DDA7-4D9B-AC4B-A2779111C402}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OakIdeas.EBook</RootNamespace>
+    <AssemblyName>OakIdeas.EBook</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EPUB\Attributes\ActionAttibute.cs" />
+    <Compile Include="EPUB\Attributes\DirectionAttribute.cs" />
+    <Compile Include="EPUB\Attributes\LanguageAttribute.cs" />
+    <Compile Include="EPUB\Attributes\UniqueIdentifierAttribute.cs" />
+    <Compile Include="EPUB\Attributes\VersionAttribute.cs" />
+    <Compile Include="EPUB\Elements\BindingsElement.cs" />
+    <Compile Include="EPUB\Elements\DefaultElement.cs" />
+    <Compile Include="EPUB\Attributes\RequiredNamespaceAttribute.cs" />
+    <Compile Include="EPUB\Elements\CaseElement.cs" />
+    <Compile Include="EPUB\Attributes\AlphabetAttribute.cs" />
+    <Compile Include="EPUB\Attributes\IdAttribute.cs" />
+    <Compile Include="EPUB\Attributes\TypeAttribute.cs" />
+    <Compile Include="EPUB\BaseElement.cs" />
+    <Compile Include="EPUB\Elements\GuideElement.cs" />
+    <Compile Include="EPUB\Elements\LanguageElement.cs" />
+    <Compile Include="EPUB\Elements\LinkElement.cs" />
+    <Compile Include="EPUB\Elements\ManifestElement.cs" />
+    <Compile Include="EPUB\Elements\MetadataElement.cs" />
+    <Compile Include="EPUB\Elements\PackageElement.cs" />
+    <Compile Include="EPUB\Elements\SpineElement.cs" />
+    <Compile Include="EPUB\Elements\TitleElement.cs" />
+    <Compile Include="EPUB\Property.cs" />
+    <Compile Include="EPUB\Attributes\IAttribute.cs" />
+    <Compile Include="EPUB\Attributes\PhAttribute.cs" />
+    <Compile Include="EPUB\Attributes\EventAttribute.cs" />
+    <Compile Include="EPUB\Attributes\ObserverAttribute.cs" />
+    <Compile Include="EPUB\Elements\IdentifierElement.cs" />
+    <Compile Include="EPUB\Elements\MetaElement.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="EPUB\Elements\SwitchElement.cs" />
+    <Compile Include="EPUB\Attributes\RefAttribute.cs" />
+    <Compile Include="EPUB\Elements\TriggerElement.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EPUB\Elements\PackageDiagram.cd" />
+    <None Include="EPUB\V3\EPUB3Diagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DCMES\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
