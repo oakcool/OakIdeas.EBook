@@ -1,5 +1,0 @@
-C:\Projects\OakIdeas.EBook\OakIdeas.EBook\bin\Debug\OakIdeas.EBook.dll
-C:\Projects\OakIdeas.EBook\OakIdeas.EBook\bin\Debug\OakIdeas.EBook.pdb
-C:\Projects\OakIdeas.EBook\OakIdeas.EBook\obj\Debug\ResolveAssemblyReference.cache
-C:\Projects\OakIdeas.EBook\OakIdeas.EBook\obj\Debug\OakIdeas.EBook.dll
-C:\Projects\OakIdeas.EBook\OakIdeas.EBook\obj\Debug\OakIdeas.EBook.pdb
