@@ -1,7 +1,7 @@
 OakIdeas .NET EBook Library v0.1
 
 +-- Who ------------------------------------
-	Mateus Carvalho http://about.me/oakcool
+	- Mateus Carvalho http://about.me/oakcool
 +-------------------------------------------
 
 +-- The Goal -------------------------------
